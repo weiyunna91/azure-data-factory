@@ -10,6 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
+				"fileName": "credit_record.csv",
+				"folderPath": "trigger-ai-csv",
 				"container": "trigger-ai-csv"
 			},
 			"columnDelimiter": ",",
