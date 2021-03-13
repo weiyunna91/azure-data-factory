@@ -35,6 +35,18 @@
 						"mappings": [
 							{
 								"source": {
+									"name": "ID",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "ID",
+									"type": "String",
+									"physicalType": "varchar"
+								}
+							},
+							{
+								"source": {
 									"name": "MONTHS_BALANCE",
 									"type": "String",
 									"physicalType": "String"
