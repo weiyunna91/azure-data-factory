@@ -44,7 +44,7 @@
 						"referenceName": "inputCSV",
 						"type": "DatasetReference",
 						"parameters": {
-							"filename": "cars.csv"
+							"filename": "planes.csv"
 						}
 					}
 				],
@@ -53,7 +53,7 @@
 						"referenceName": "outputTable",
 						"type": "DatasetReference",
 						"parameters": {
-							"tabelName": "Cars"
+							"tabelName": "Planes"
 						}
 					}
 				]
