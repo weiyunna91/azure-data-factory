@@ -120,6 +120,14 @@
 				]
 			}
 		],
+		"parameters": {
+			"FileName": {
+				"type": "string"
+			},
+			"TableName": {
+				"type": "string"
+			}
+		},
 		"annotations": []
 	}
 }
