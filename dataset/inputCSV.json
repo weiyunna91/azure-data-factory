@@ -17,7 +17,7 @@
 			"location": {
 				"type": "AzureBlobFSLocation",
 				"fileName": {
-					"value": "cars.csv",
+					"value": "@dataset().filename",
 					"type": "Expression"
 				},
 				"folderPath": "parameterization",
