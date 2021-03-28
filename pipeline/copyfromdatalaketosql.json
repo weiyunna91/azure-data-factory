@@ -102,7 +102,10 @@
 						"referenceName": "outputTable",
 						"type": "DatasetReference",
 						"parameters": {
-							"tabelName": "Planes"
+							"tabelName": {
+								"value": "@pipeline().parameters.TableName",
+								"type": "Expression"
+							}
 						}
 					}
 				],
@@ -112,7 +115,7 @@
 						"type": "DatasetReference",
 						"parameters": {
 							"filename": {
-								"value": "@concat('planes',utcnow(),'.csv')",
+								"value": "@concat(pipeline().parameters.FileName,utcnow(),'.csv')",
 								"type": "Expression"
 							}
 						}
