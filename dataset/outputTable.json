@@ -7,8 +7,7 @@
 		},
 		"parameters": {
 			"tabelName": {
-				"type": "string",
-				"defaultValue": "Cars"
+				"type": "string"
 			}
 		},
 		"annotations": [],
